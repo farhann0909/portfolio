@@ -9,7 +9,7 @@
         </button>
         <!-- Mengganti ikon GitHub menjadi LinkedIn -->
         <div class="flex md:order-2 fadein-bot">
-          <a href="https://www.linkedin.com/in/your-linkedin-profile/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/farhan-aulia-rahman/" target="_blank" rel="noopener noreferrer">
             <img class="w-9 rounded-full" src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Linkedin_icon.svg" alt="LinkedIn">
           </a>
         </div>
