@@ -49,7 +49,7 @@ export default {
           </p>
           <div class="mt-4">
             <a
-              href="https://drive.google.com/file/d/your-cv-link-here/view?usp=sharing"
+              href="https://drive.google.com/file/d/1bWhzUfuttRh8v3CNnqJbZECVDWnQKPFh/view?usp=sharing"
               target="_blank"
               class="px-4 py-2 bg-amber-200 text-black font-semibold rounded-lg hover:bg-amber-300 transition-all">
               Download CV
