@@ -38,7 +38,7 @@ export default {
         },
         {
           id: 5,
-          name: 'AlloBank Increasing Active User with GPS Strategy',
+          name: 'AlloBank Increasing Active User Strategy',
           imageUrl: require('@/assets/images/AlloBank Increasing Active User with GPS Strategy.png'),
           status: 'Strategi untuk meningkatan active user bagi AlloBank.',
           tech: 'Strategic Management',
@@ -48,14 +48,39 @@ export default {
           id: 6,
           name: 'Wakely Marketing Strategy',
           imageUrl: require('@/assets/images/Wakely Marketing Strategy.png'),
-          status: 'Analisis strategi pemasaran Wakely yang bergerak di bidang fnB.',
+          status: 'Analisis strategi pemasaran produk minuman Wakely.',
           tech: 'Marketing Strategy',
           demo: 'https://drive.google.com/file/d/1uCZbUbPFgU6HKRQKLp7JLh4jU4EhXnW2/view?usp=sharing'
+        },
+        {
+          id: 7,
+          name: 'Biteship Business Valuation',
+          imageUrl: require('@/assets/images/Biteship Business Valuation.png'),
+          status: 'Valuasi bisnis untuk Biteship dengan pendekatan Berkus, Scorecard, dan Risk Factor Method.',
+          tech: 'Business Valuation',
+          demo: 'https://drive.google.com/file/d/1biteship-valuation/view?usp=sharing'
+        },
+        {
+          id: 8,
+          name: 'Bookmart Cyber Security Risk Management',
+          imageUrl: require('@/assets/images/Bookmart Cyber Security Risk Management.png'),
+          status: 'Manajemen risiko keamanan siber untuk Bookmart.',
+          tech: 'Risk Management',
+          demo: 'https://drive.google.com/file/d/1OTpIaPyMTkt05FB53nT8EtZI10XnGUEM/view?usp=sharing'
+        },
+        {
+          id: 9,
+          name: 'Bike Sharing Dashboard',
+          imageUrl: require('@/assets/images/Bike Sharing Dashboard.png'),
+          status: 'Dashboard berbasis data untuk menganalisis penggunaan bike sharing.',
+          tech: 'Data Analyst',
+          demo: 'https://bike-sharing-dashboard-farhan.streamlit.app',
+          repo: 'https://github.com/farhann0909/bike-sharing-dashboard'
         }
       ]
     };
   }
-}
+};
 </script>
 
 <template>
@@ -82,13 +107,16 @@ export default {
                   <div class="w-full mt-4 text-normal text-sm text-left text-amber-200">{{ item.tech }}</div>
                   <div class="w-full flex justify-end">
                     <div class="flex cursor-pointer items-end gap-2 text-primary">
-                      <a v-if="item.demo" :href="item.demo" target="_blank" rel="noreferrer"
-                        title="View finished project" class="transition-all hover:text-accent">
-                        <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"
-                          height="18" width="18" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <a v-if="item.demo" :href="item.demo" target="_blank" rel="noreferrer" title="View finished project" class="transition-all hover:text-accent">
+                        <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="18" width="18" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 1 1 2-2h6"></path>
                           <polyline points="15 3 21 3 21 9"></polyline>
                           <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                      </a>
+                      <a v-if="item.repo" :href="item.repo" target="_blank" rel="noreferrer" title="View repository" class="transition-all hover:text-accent">
+                        <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="18" width="18" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M9 19c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8c0 3.313-2.691 6-6 6H9m0 0v3m0-3h3"></path>
                         </svg>
                       </a>
                     </div>
